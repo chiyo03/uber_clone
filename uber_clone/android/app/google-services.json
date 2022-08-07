@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "107668853359",
+    "firebase_url": "https://driveme-cd63e-default-rtdb.firebaseio.com",
+    "project_id": "driveme-cd63e",
+    "storage_bucket": "driveme-cd63e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107668853359:android:4365caa223e4656806739a",
+        "android_client_info": {
+          "package_name": "com.example.uber_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107668853359-h4vsr2v4olnrgeu43p7et9l301pestk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYgVOb8eKjJxU0_53_YnrExOHu8BwBlYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107668853359-h4vsr2v4olnrgeu43p7et9l301pestk5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "107668853359-sblvu2ddu0pq5c3g9a446qrkt1nhtoea.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uberClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
