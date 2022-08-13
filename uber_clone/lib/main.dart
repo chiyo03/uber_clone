@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:uber_clone/screens/main_page.dart';
+import 'package:uber_clone/screens/login_page.dart';
+import 'package:uber_clone/screens/registration_page.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Brand-Regular',
         primarySwatch: Colors.blue,
       ),
-      home: MainPage(),
+      home: const RegistrationPage(),
     );
   }
 }

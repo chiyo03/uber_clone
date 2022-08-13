@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 import '../firebase_options.dart';
@@ -13,6 +14,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  late DatabaseReference _dref;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +23,10 @@ class _MainPageState extends State<MainPage> {
       ),
       body: Center(
         child: MaterialButton(
-          onPressed: () {},
+          onPressed: () {
+            _dref = FirebaseDatabase.instance.ref().child('Test');
+            _dref.set('IsConnected');
+          },
           height: 50,
           minWidth: 300,
           color: Colors.green,
